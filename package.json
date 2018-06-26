@@ -1,0 +1,26 @@
+{
+  "name": "gui-test-example",
+  "version": "1.0.0",
+  "description": "A starter for acceptance testing using cucumber-js and webdriver-js.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tekn0ir/gui-test-example"
+  },
+  "devDependencies": {
+    "cucumber": "^4.2.1",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "chromedriver": "^2.40.0",
+    "chai": "^4.1.1",
+    "grunt": "^1.0.3",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-exec": "^3.0.0",
+    "grunt-env": "^0.4.4",
+    "sanitize-filename": "^1.6.1",
+    "appium": "^1.8.1"
+  },
+  "scripts": {
+    "test": "node_modules/grunt-cli/bin/grunt chrome"
+  }
+}
