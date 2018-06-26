@@ -1,4 +1,5 @@
 # gui-test-example
+Purpose: Run tests "headless" (without a screen or a window environment set up), for example in a CI pipeline.
 
 Run tests:
 ```
